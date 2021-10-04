@@ -66,4 +66,6 @@ ggplot( map_data("world") , aes(long, lat, group = group)) +
 ##
 # Or other pretty cool stuff that we are going to learn through the semester!
 
+mpg?
+
 
