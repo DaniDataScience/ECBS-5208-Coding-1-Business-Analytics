@@ -34,6 +34,9 @@ a != b  # not equal
 # Remove variables from work space
 rm(d)
 
+#Clear the whole workspace
+rm( list = ls() )
+
 ##
 # Create vectors
 v <- c(2,5,10)
@@ -112,6 +115,7 @@ my_list2 <- list(c("a","b"),c(1,2,3),sqrt(2)^2==2)
 # you get the list's value - still a list (typeof(my_list2[1]))
 my_list2[1]
 typeof(my_list2[1])
+my_list2[2]
 # you get the vector's value - it is a character (typeof(my_list2[[1]]))
 my_list2[[1]]
 typeof(my_list2[[1]])
